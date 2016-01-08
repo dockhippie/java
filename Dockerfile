@@ -4,7 +4,7 @@ MAINTAINER Thomas Boerger <thomas@webhippie.de>
 RUN apk update && \
   apk add \
     nss \
-    openjdk7 && \
+    openjdk7@community && \
   rm -rf /var/cache/apk/*
 
 ADD rootfs /
