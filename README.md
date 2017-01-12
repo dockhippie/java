@@ -1,16 +1,13 @@
 # Java
 
-[![](https://badge.imagelayers.io/webhippie/java:latest.svg)](https://imagelayers.io/?images=webhippie/java:latest 'Get your own badge on imagelayers.io')
+[![](https://images.microbadger.com/badges/image/webhippie/java.svg)](https://microbadger.com/images/webhippie/java "Get your own image badge on microbadger.com")
 
-These are docker images for [Java](http://openjdk.java.net) running on an
-[Alpine Linux container](https://registry.hub.docker.com/u/webhippie/alpine/).
+These are docker images for [Java](http://openjdk.java.net) running on an [Alpine Linux container](https://registry.hub.docker.com/u/webhippie/alpine/).
 
 
 ## Versions
 
-* [latest](https://github.com/dockhippie/java/tree/master)
-  available as ```webhippie/java:latest``` at
-  [Docker Hub](https://registry.hub.docker.com/u/webhippie/java/)
+* [latest](https://github.com/dockhippie/java/tree/master) available as ```webhippie/java:latest``` at [Docker Hub](https://registry.hub.docker.com/u/webhippie/java/)
 
 
 ## Volumes
@@ -25,20 +22,14 @@ These are docker images for [Java](http://openjdk.java.net) running on an
 
 ## Available environment variables
 
-**None**
+```bash
+```
 
 
 ## Inherited environment variables
 
 ```bash
-ENV LOGSTASH_ENABLED false
-ENV LOGSTASH_HOST logstash
-ENV LOGSTASH_PORT 5043
-ENV LOGSTASH_CA /etc/ssl/logstash/certs/ca.pem # As string or filename
-ENV LOGSTASH_CERT /etc/ssl/logstash/certs/cert.pem # As string or filename
-ENV LOGSTASH_KEY /etc/ssl/logstash/private/cert.pem # As string or filename
-ENV LOGSTASH_TIMEOUT 15
-ENV LOGSTASH_OPTS
+ENV CRON_ENABLED false
 ```
 
 
@@ -60,5 +51,5 @@ MIT
 ## Copyright
 
 ```
-Copyright (c) 2015-2016 Thomas Boerger <http://www.webhippie.de>
+Copyright (c) 2015-2017 Thomas Boerger <http://www.webhippie.de>
 ```
