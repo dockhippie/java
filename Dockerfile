@@ -9,7 +9,7 @@ CMD ["bash"]
 RUN apk update && \
   apk add \
     nss \
-    openjdk7 && \
+    openjdk8 && \
   rm -rf /var/cache/apk/*
 
 ADD rootfs /
