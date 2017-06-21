@@ -7,9 +7,7 @@ These are docker images for [Java](http://openjdk.java.net) running on an [Alpin
 
 ## Versions
 
-* [latest](https://github.com/dockhippie/java/tree/master) available as ```webhippie/java:latest``` at [Docker Hub](https://registry.hub.docker.com/u/webhippie/java/)
-* [8](https://github.com/dockhippie/java/tree/8) available as ```webhippie/java:8``` at [Docker Hub](https://registry.hub.docker.com/u/webhippie/java/)
-* [7](https://github.com/dockhippie/java/tree/7) available as ```webhippie/java:7``` at [Docker Hub](https://registry.hub.docker.com/u/webhippie/java/)
+To get an overview about the available versions please take a look at the [GitHub branches](https://github.com/dockhippie/java/branches/all) or our [Docker Hub tags](https://hub.docker.com/r/webhippie/java/tags/), these lists are always up to date.
 
 
 ## Volumes
