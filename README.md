@@ -1,5 +1,6 @@
 # Java
 
+[![Build Status](https://cloud.drone.io/api/badges/dockhippie/java/status.svg)](https://cloud.drone.io/dockhippie/java)
 [![](https://images.microbadger.com/badges/image/webhippie/java.svg)](https://microbadger.com/images/webhippie/java "Get your own image badge on microbadger.com")
 
 These are docker images for [Java](http://openjdk.java.net) running on an [Alpine Linux container](https://registry.hub.docker.com/u/webhippie/alpine/).
@@ -7,7 +8,12 @@ These are docker images for [Java](http://openjdk.java.net) running on an [Alpin
 
 ## Versions
 
-To get an overview about the available versions please take a look at the [GitHub branches](https://github.com/dockhippie/java/branches/all) or our [Docker Hub tags](https://hub.docker.com/r/webhippie/java/tags/), these lists are always up to date.
+* [latest](./latest) available as `webhippie/java:latest`
+* [11](./v11) available as `webhippie/java:11`
+* [10](./v10) available as `webhippie/java:10`
+* [9](./v9) available as `webhippie/java:9`
+* [8](./v8) available as `webhippie/java:8`
+* [7](./v7) available as `webhippie/java:7`
 
 
 ## Volumes
@@ -50,5 +56,5 @@ MIT
 ## Copyright
 
 ```
-Copyright (c) 2015-2017 Thomas Boerger <http://www.webhippie.de>
+Copyright (c) 2015 Thomas Boerger <http://www.webhippie.de>
 ```
