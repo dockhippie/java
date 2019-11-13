@@ -1,0 +1,13 @@
+image: webhippie/java:latest
+manifests:
+  -
+    image: webhippie/java:latest-amd64
+    platform:
+      architecture: amd64
+      os: linux
+  -
+    image: webhippie/java:latest-arm64v8
+    platform:
+      architecture: arm64
+      os: linux
+      variant: v8
