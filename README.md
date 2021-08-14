@@ -1,60 +1,45 @@
-# Java
+# java
 
-[![Build Status](https://cloud.drone.io/api/badges/dockhippie/java/status.svg)](https://cloud.drone.io/dockhippie/java)
-[![](https://images.microbadger.com/badges/image/webhippie/java.svg)](https://microbadger.com/images/webhippie/java "Get your own image badge on microbadger.com")
+[![Docker Build](https://github.com/dockhippie/java/workflows/docker/badge.svg)](https://github.com/dockhippie/java/actions?query=workflow%3Adocker) [![Readme Build](https://github.com/dockhippie/java/workflows/readme/badge.svg)](https://github.com/dockhippie/java/actions?query=workflow%3Areadme) [![Docker Size](https://img.shields.io/docker/image-size/webhippie/java/latest)](#) [![Docker Pulls](https://img.shields.io/docker/pulls/webhippie/java)](https://hub.docker.com/r/webhippie/java) [![GitHub Repo](https://img.shields.io/badge/github-repo-yellowgreen)](https://github.com/dockhippie/java)
 
-These are docker images for [Java](http://openjdk.java.net) running on an [Alpine Linux container](https://registry.hub.docker.com/u/webhippie/alpine/).
-
+These are docker images for [Java](http://openjdk.java.net) running on our [Alpine Linux image](https://github.com/dockhippie/alpine).
 
 ## Versions
 
-* [latest](./latest) available as `webhippie/java:latest`
-* [11](./v11) available as `webhippie/java:11`
-* [10](./v10) available as `webhippie/java:10`
-* [9](./v9) available as `webhippie/java:9`
-* [8](./v8) available as `webhippie/java:8`
-* [7](./v7) available as `webhippie/java:7`
-
+For the available versions please look at [Docker Hub](https://hub.docker.com/r/webhippie/java/tags) or [Quay](https://quay.io/repository/webhippie/java?tab=tags) or check the existing folders within the [GitHub repository](https://github.com/dockhippie/java).
 
 ## Volumes
 
 * /srv/app
 
-
 ## Ports
 
 * None
 
-
 ## Available environment variables
 
-```bash
+```console
 
 ```
 
-
 ## Inherited environment variables
 
-* [webhippie/alpine](https://github.com/dockhippie/alpine#available-environment-variables)
-
+*  [webhippie/alpine](https://github.com/dockhippie/alpine#available-environment-variables)
 
 ## Contributing
 
 Fork -> Patch -> Push -> Pull Request
 
-
 ## Authors
 
-* [Thomas Boerger](https://github.com/tboerger)
-
+*  [Thomas Boerger](https://github.com/tboerger)
 
 ## License
 
 MIT
 
-
 ## Copyright
 
-```
+```console
 Copyright (c) 2015 Thomas Boerger <http://www.webhippie.de>
 ```
