@@ -1,10 +1,10 @@
-FROM webhippie/alpine:3.14-amd64
+FROM webhippie/alpine:3.14-arm
 
 WORKDIR /srv/app
 
 RUN apk update && \
   apk upgrade && \
-  apk add nss openjdk8 openjdk8-jre-lib && \
+  apk add nss openjdk11 openjdk11 && \
   rm -rf /var/cache/apk/*
 
 COPY ./overlay /
