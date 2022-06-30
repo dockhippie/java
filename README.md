@@ -1,20 +1,23 @@
 # java
 
-[![Docker Build](https://github.com/dockhippie/java/workflows/docker/badge.svg)](https://github.com/dockhippie/java/actions?query=workflow%3Adocker) [![Readme Build](https://github.com/dockhippie/java/workflows/readme/badge.svg)](https://github.com/dockhippie/java/actions?query=workflow%3Areadme) [![Docker Size](https://img.shields.io/docker/image-size/webhippie/java/latest)](#) [![Docker Pulls](https://img.shields.io/docker/pulls/webhippie/java)](https://hub.docker.com/r/webhippie/java) [![GitHub Repo](https://img.shields.io/badge/github-repo-yellowgreen)](https://github.com/dockhippie/java)
+[![Docker Build](https://github.com/dockhippie/java/actions/workflows/docker.yml/badge.svg)](https://github.com/dockhippie/java/actions/workflows/docker.yml) [![GitHub Repo](https://img.shields.io/badge/github-repo-yellowgreen)](https://github.com/dockhippie/java)
 
-These are docker images for [Java](http://openjdk.java.net) running on our [Alpine Linux image](https://github.com/dockhippie/alpine).
+These are docker images for [Java][upstream] running on our
+[Alpine Linux image][parent].
 
 ## Versions
 
-For the available versions please look at [Docker Hub](https://hub.docker.com/r/webhippie/java/tags) or [Quay](https://quay.io/repository/webhippie/java?tab=tags) or check the existing folders within the [GitHub repository](https://github.com/dockhippie/java).
+For the available versions please look at [Docker Hub][dockerhub] or
+[Quay][quayio] or check the existing folders within the
+[GitHub repository][github].
 
 ## Volumes
 
-* /srv/app
+*  /srv/app
 
 ## Ports
 
-* None
+*  None
 
 ## Available environment variables
 
@@ -43,3 +46,9 @@ MIT
 ```console
 Copyright (c) 2015 Thomas Boerger <http://www.webhippie.de>
 ```
+
+[upstream]: http://openjdk.java.net
+[parent]: https://github.com/dockhippie/alpine
+[dockerhub]: https://hub.docker.com/r/webhippie/java/tags
+[quayio]: https://quay.io/repository/webhippie/java?tab=tags
+[github]: https://github.com/dockhippie/java
