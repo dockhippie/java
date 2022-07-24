@@ -1,4 +1,4 @@
-FROM webhippie/alpine:3.16-arm@sha256:2def477e6e289852ad67855a92dcaeeac60c242e180c8a8fdf0c823701b939bb
+FROM webhippie/alpine:3.16-arm@sha256:f72f3b42fd6b3b72327fea4f47a9d8374399c8497894040680ba9bcea86e663f
 
 WORKDIR /srv/app
 
