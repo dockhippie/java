@@ -1,0 +1,10 @@
+FROM webhippie/alpine:3.17-amd64@sha256:2cd17c0c7f66b6b0051161a7b4afeb2309cac8258f5fc73bf23a10382148c27b
+
+WORKDIR /srv/app
+
+RUN apk update && \
+  apk upgrade && \
+  apk add nss openjdk17@testing openjdk17-jre-headless@testing && \
+  rm -rf /var/cache/apk/*
+
+COPY ./overlay /
