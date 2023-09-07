@@ -1,4 +1,4 @@
-FROM ghcr.io/dockhippie/alpine:3.18-amd64@sha256:491040d426a4c9d83d8b21ff813854b244b3811e04febfc3ec7c23fbb1abc352
+FROM ghcr.io/dockhippie/alpine:3.18-amd64@sha256:b0b77933c22e41b2e3f123c38f53bef1be8eb45e7e890e2693ab2c620641e307
 
 WORKDIR /srv/app
 
