@@ -1,0 +1,10 @@
+FROM ghcr.io/dockhippie/alpine:3.19-amd64@sha256:9c1115000b4b721f6fd4a50da4d635532052e4f590ef60585228690292e6e7d9
+
+WORKDIR /srv/app
+
+RUN apk update && \
+  apk upgrade && \
+  apk add nss openjdk21@testing openjdk21-jre-headless@testing && \
+  rm -rf /var/cache/apk/*
+
+COPY ./overlay /
