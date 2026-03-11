@@ -1,7 +1,7 @@
 ---
 repository:
   name: java
-  description: Docker images for java
+  description: Docker images for Java
   topics: docker, image
 
   private: false
